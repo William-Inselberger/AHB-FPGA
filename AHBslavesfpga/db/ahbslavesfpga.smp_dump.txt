@@ -1,0 +1,14 @@
+
+State Machine - |ahbslavesfpga|ahbslave:slave2|state
+Name state.READ state.WRITE state.s1 state.idle 
+state.idle 0 0 0 0 
+state.s1 0 0 1 1 
+state.WRITE 0 1 0 1 
+state.READ 1 0 0 1 
+
+State Machine - |ahbslavesfpga|ahbslave:slave1|state
+Name state.READ state.WRITE state.s1 state.idle 
+state.idle 0 0 0 0 
+state.s1 0 0 1 1 
+state.WRITE 0 1 0 1 
+state.READ 1 0 0 1 

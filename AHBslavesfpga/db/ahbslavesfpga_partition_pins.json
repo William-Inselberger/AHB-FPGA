@@ -1,0 +1,277 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "hreadyout_1",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "hreadyout_2",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "As1",
+					"strict" : false
+				},
+				{
+					"name" : "Ds1",
+					"strict" : false
+				},
+				{
+					"name" : "Es1",
+					"strict" : false
+				},
+				{
+					"name" : "Fs1",
+					"strict" : false
+				},
+				{
+					"name" : "As2",
+					"strict" : false
+				},
+				{
+					"name" : "Ds2",
+					"strict" : false
+				},
+				{
+					"name" : "Es2",
+					"strict" : false
+				},
+				{
+					"name" : "Fs2",
+					"strict" : false
+				},
+				{
+					"name" : "As3",
+					"strict" : false
+				},
+				{
+					"name" : "Ds3",
+					"strict" : false
+				},
+				{
+					"name" : "Es3",
+					"strict" : false
+				},
+				{
+					"name" : "Fs3",
+					"strict" : false
+				},
+				{
+					"name" : "As4",
+					"strict" : false
+				},
+				{
+					"name" : "Ds4",
+					"strict" : false
+				},
+				{
+					"name" : "Es4",
+					"strict" : false
+				},
+				{
+					"name" : "Fs4",
+					"strict" : false
+				},
+				{
+					"name" : "htrans[1]",
+					"strict" : false
+				},
+				{
+					"name" : "htrans[0]",
+					"strict" : false
+				},
+				{
+					"name" : "bursttype[2]",
+					"strict" : false
+				},
+				{
+					"name" : "bursttype[0]",
+					"strict" : false
+				},
+				{
+					"name" : "bursttype[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hwrite",
+					"strict" : false
+				},
+				{
+					"name" : "addr[9]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[8]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hclk",
+					"strict" : false
+				},
+				{
+					"name" : "hresetn",
+					"strict" : false
+				},
+				{
+					"name" : "confirm",
+					"strict" : false
+				},
+				{
+					"name" : "s0",
+					"strict" : false
+				},
+				{
+					"name" : "s1",
+					"strict" : false
+				},
+				{
+					"name" : "s2",
+					"strict" : false
+				},
+				{
+					"name" : "s3",
+					"strict" : false
+				},
+				{
+					"name" : "hsel_1",
+					"strict" : false
+				},
+				{
+					"name" : "hsel_2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

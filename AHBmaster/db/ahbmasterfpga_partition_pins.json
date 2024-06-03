@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "hwdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hwdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hwrite",
+					"strict" : false
+				},
+				{
+					"name" : "bursttype[0]",
+					"strict" : false
+				},
+				{
+					"name" : "bursttype[1]",
+					"strict" : false
+				},
+				{
+					"name" : "htrans[0]",
+					"strict" : false
+				},
+				{
+					"name" : "htrans[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Am",
+					"strict" : false
+				},
+				{
+					"name" : "Dm",
+					"strict" : false
+				},
+				{
+					"name" : "Em",
+					"strict" : false
+				},
+				{
+					"name" : "Fm",
+					"strict" : false
+				},
+				{
+					"name" : "hclk",
+					"strict" : false
+				},
+				{
+					"name" : "hresetn",
+					"strict" : false
+				},
+				{
+					"name" : "hrdata_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hreadyout_1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Jun 02 16:41:01 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ahbslavesfpga
+Top-level Entity Name : ahbslavesfpga
+Family : MAX 10
+Total logic elements : 472
+    Total combinational functions : 422
+    Dedicated logic registers : 118
+Total registers : 118
+Total pins : 87
+Total virtual pins : 0
+Total memory bits : 200
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

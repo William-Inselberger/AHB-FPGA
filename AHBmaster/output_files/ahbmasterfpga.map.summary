@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Jun 02 15:52:05 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ahbmasterfpga
+Top-level Entity Name : ahbmasterfpga
+Family : MAX 10
+Total logic elements : 40
+    Total combinational functions : 39
+    Dedicated logic registers : 15
+Total registers : 15
+Total pins : 55
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
