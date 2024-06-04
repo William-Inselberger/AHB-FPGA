@@ -163,4 +163,26 @@ displaydecoder display3(
 .F(Fs4),
 .G(Gs4)
 );
+displaydecoder display4(
+.n(0),
+.A(As5),
+.B(Bs5),
+.C(Cs5),
+.D(Ds5),
+.E(Es5),
+.F(Fs5),
+.G(Gs5)
+);
+
+displaydecoder display5(
+.n(0),
+.A(As6),
+.B(Bs6),
+.C(Cs6),
+.D(Ds6),
+.E(Es6),
+.F(Fs6),
+.G(Gs6)
+);
+
 endmodule
