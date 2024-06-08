@@ -1,6 +1,6 @@
 |ahbmasterfpga
-hclk <> ahbmaster:master.hclk
-hresetn => hresetn.IN2
+hclk => hclk.IN1
+hresetn => hresetn.IN3
 hrdata_1[0] => hrdata_1[0].IN1
 hrdata_1[1] => hrdata_1[1].IN1
 hrdata_1[2] => hrdata_1[2].IN1
@@ -47,13 +47,61 @@ bursttype[1] <= bursttype[1].DB_MAX_OUTPUT_PORT_TYPE
 bursttype[2] <= bursttype[2].DB_MAX_OUTPUT_PORT_TYPE
 htrans[0] <= ahbmaster:master.htrans
 htrans[1] <= ahbmaster:master.htrans
-Am <= displaydecoder:U6.A
-Bm <= displaydecoder:U6.B
-Cm <= displaydecoder:U6.C
-Dm <= displaydecoder:U6.D
-Em <= displaydecoder:U6.E
-Fm <= displaydecoder:U6.F
-Gm <= displaydecoder:U6.G
+confirm0 => confirm0.IN1
+confirm1 => confirm1.IN1
+s0 => seldisplay[0].IN1
+s1 => seldisplay[1].IN1
+s2 => seldisplay[2].IN1
+s3 => seldisplay[3].IN1
+s4 => seldisplay[4].IN1
+s5 => seldisplay[5].IN1
+s6 => seldisplay[6].IN1
+s7 => seldisplay[7].IN1
+s8 => seldisplay[8].IN1
+As1 <= displaydecoder:display0.A
+Bs1 <= displaydecoder:display0.B
+Cs1 <= displaydecoder:display0.C
+Ds1 <= displaydecoder:display0.D
+Es1 <= displaydecoder:display0.E
+Fs1 <= displaydecoder:display0.F
+Gs1 <= displaydecoder:display0.G
+As2 <= displaydecoder:display1.A
+Bs2 <= displaydecoder:display1.B
+Cs2 <= displaydecoder:display1.C
+Ds2 <= displaydecoder:display1.D
+Es2 <= displaydecoder:display1.E
+Fs2 <= displaydecoder:display1.F
+Gs2 <= displaydecoder:display1.G
+As3 <= displaydecoder:display2.A
+Bs3 <= displaydecoder:display2.B
+Cs3 <= displaydecoder:display2.C
+Ds3 <= displaydecoder:display2.D
+Es3 <= displaydecoder:display2.E
+Fs3 <= displaydecoder:display2.F
+Gs3 <= displaydecoder:display2.G
+As4 <= displaydecoder:display3.A
+Bs4 <= displaydecoder:display3.B
+Cs4 <= displaydecoder:display3.C
+Ds4 <= displaydecoder:display3.D
+Es4 <= displaydecoder:display3.E
+Fs4 <= displaydecoder:display3.F
+Gs4 <= displaydecoder:display3.G
+As5 <= displaydecoder:display4.A
+Bs5 <= displaydecoder:display4.B
+Cs5 <= displaydecoder:display4.C
+Ds5 <= displaydecoder:display4.D
+Es5 <= displaydecoder:display4.E
+Fs5 <= displaydecoder:display4.F
+Gs5 <= displaydecoder:display4.G
+As6 <= displaydecoder:display5.A
+Bs6 <= displaydecoder:display5.B
+Cs6 <= displaydecoder:display5.C
+Ds6 <= displaydecoder:display5.D
+Es6 <= displaydecoder:display5.E
+Fs6 <= displaydecoder:display5.F
+Gs6 <= displaydecoder:display5.G
+hclkout <= hclk.DB_MAX_OUTPUT_PORT_TYPE
+hresetnout <= <GND>
 
 
 |ahbmasterfpga|idecoder:U1
@@ -281,7 +329,181 @@ hreadyout <= hreadyout.DB_MAX_OUTPUT_PORT_TYPE
 hresp <= hresp.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ahbmasterfpga|displaydecoder:U6
+|ahbmasterfpga|memorialeitura:memory
+hrestn => ~NO_FANOUT~
+displaysel[0] => ~NO_FANOUT~
+displaysel[1] => ~NO_FANOUT~
+displaysel[2] => ~NO_FANOUT~
+displaysel[3] => ~NO_FANOUT~
+displaysel[4] => ~NO_FANOUT~
+displaysel[5] => ~NO_FANOUT~
+displaysel[6] => ~NO_FANOUT~
+displaysel[7] => ~NO_FANOUT~
+displaysel[8] => ~NO_FANOUT~
+displaysel[9] => ~NO_FANOUT~
+valorleitura[0] => ~NO_FANOUT~
+valorleitura[1] => ~NO_FANOUT~
+valorleitura[2] => ~NO_FANOUT~
+valorleitura[3] => ~NO_FANOUT~
+valorleitura[4] => ~NO_FANOUT~
+valorleitura[5] => ~NO_FANOUT~
+valorleitura[6] => ~NO_FANOUT~
+valorleitura[7] => ~NO_FANOUT~
+memoria[0] <= <GND>
+memoria[1] <= <GND>
+memoria[2] <= <GND>
+memoria[3] <= <GND>
+memoria[4] <= <GND>
+memoria[5] <= <GND>
+memoria[6] <= <GND>
+memoria[7] <= <GND>
+
+
+|ahbmasterfpga|ffd:valor0
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ahbmasterfpga|ffd:valor1
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ahbmasterfpga|displaydecoder:display0
+n[0] => Decoder0.IN3
+n[1] => Decoder0.IN2
+n[2] => Decoder0.IN1
+n[3] => Decoder0.IN0
+n[4] => ~NO_FANOUT~
+n[5] => ~NO_FANOUT~
+n[6] => ~NO_FANOUT~
+n[7] => ~NO_FANOUT~
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ahbmasterfpga|displaydecoder:display1
+n[0] => Decoder0.IN3
+n[1] => Decoder0.IN2
+n[2] => Decoder0.IN1
+n[3] => Decoder0.IN0
+n[4] => ~NO_FANOUT~
+n[5] => ~NO_FANOUT~
+n[6] => ~NO_FANOUT~
+n[7] => ~NO_FANOUT~
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ahbmasterfpga|displaydecoder:display2
+n[0] => Decoder0.IN3
+n[1] => Decoder0.IN2
+n[2] => Decoder0.IN1
+n[3] => Decoder0.IN0
+n[4] => ~NO_FANOUT~
+n[5] => ~NO_FANOUT~
+n[6] => ~NO_FANOUT~
+n[7] => ~NO_FANOUT~
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ahbmasterfpga|displaydecoder:display3
+n[0] => Decoder0.IN3
+n[1] => Decoder0.IN2
+n[2] => Decoder0.IN1
+n[3] => Decoder0.IN0
+n[4] => ~NO_FANOUT~
+n[5] => ~NO_FANOUT~
+n[6] => ~NO_FANOUT~
+n[7] => ~NO_FANOUT~
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ahbmasterfpga|displaydecoder:display4
+n[0] => Decoder0.IN3
+n[1] => Decoder0.IN2
+n[2] => Decoder0.IN1
+n[3] => Decoder0.IN0
+n[4] => ~NO_FANOUT~
+n[5] => ~NO_FANOUT~
+n[6] => ~NO_FANOUT~
+n[7] => ~NO_FANOUT~
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ahbmasterfpga|displaydecoder:display5
 n[0] => Decoder0.IN3
 n[1] => Decoder0.IN2
 n[2] => Decoder0.IN1

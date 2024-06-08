@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ahbslave.v(324): always construct contains both blocking and non-blocking assignments File: C:/Users/wi199/OneDrive/Documentos/AHB FPGA/AHBslavesfpga/ahbslave.v Line: 324

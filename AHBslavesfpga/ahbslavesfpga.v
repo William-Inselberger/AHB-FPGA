@@ -17,7 +17,6 @@ module ahbslavesfpga(
 	input s6,
 	input s7,
 	input s8,
-	input s9,
 	input confirm,
 	output  hreadyout_1,
 	output  hresp_1,
@@ -52,12 +51,26 @@ module ahbslavesfpga(
 	output Ds4,
 	output Es4,
 	output Fs4,
-	output Gs4
+	output Gs4,
+	output As5,
+	output Bs5,
+	output Cs5,
+	output Ds5,
+	output Es5,
+	output Fs5,
+	output Gs5,
+	output As6,
+	output Bs6,
+	output Cs6,
+	output Ds6,
+	output Es6,
+	output Fs6,
+	output Gs6
 
 );
-wire [9:0]seldisplay;
+wire [8:0]seldisplay;
 
-assign seldisplay={s9,s8,s7,s6,s5,s4,s3,s2,s1,s0};
+assign seldisplay={s8,s7,s6,s5,s4,s3,s2,s1,s0};
 // slave 1/
 ahbslave slave1(
   .hclk(hclk),
@@ -101,25 +114,30 @@ ahbslave slave2(
   .displaysel(seldisplay)
 );
 
-wire [7:0]mem0,mem1,memos0,memos1;
-
+wire [7:0]mem0,mem1,memos0,memos1,memos00,memos01,memos10,memos11,enderecolsb,enderecomsb;
+wire [9:0] endereco;
 ffd valor0(
 .d(mem0),
+.a(seldisplay),
 .clk(confirm),
-.q(memos0)
+.qd(memos0),
+.qa(endereco)
 
 );
 
 ffd valor1(
 .d(mem1),
+.a(seldisplay),
 .clk(confirm),
-.q(memos1)
+.qd(memos1),
 
 );
 assign memos00={memos0[3],memos0[2],memos0[1],memos0[0]};
 assign memos01={memos0[7],memos0[6],memos0[5],memos0[4]};
 assign memos10={memos1[3],memos1[2],memos1[1],memos1[0]};
 assign memos11={memos1[7],memos1[6],memos1[5],memos1[4]};
+assign enderecolsb={endereco[3],endereco[2],endereco[1],endereco[0]};
+assign enderecomsb={endereco[7],endereco[6],endereco[5],endereco[4]};
 
 displaydecoder display0(
 .n(memos00),
@@ -133,7 +151,7 @@ displaydecoder display0(
 );
 
 displaydecoder display1(
-.n(memos01),
+.n(0),
 .A(As2),
 .B(Bs2),
 .C(Cs2),
@@ -154,7 +172,7 @@ displaydecoder display2(
 );
 
 displaydecoder display3(
-.n(memos11),
+.n(0),
 .A(As4),
 .B(Bs4),
 .C(Cs4),
@@ -164,7 +182,7 @@ displaydecoder display3(
 .G(Gs4)
 );
 displaydecoder display4(
-.n(0),
+.n(enderecolsb),
 .A(As5),
 .B(Bs5),
 .C(Cs5),
@@ -175,7 +193,7 @@ displaydecoder display4(
 );
 
 displaydecoder display5(
-.n(0),
+.n(enderecomsb),
 .A(As6),
 .B(Bs6),
 .C(Cs6),
@@ -184,5 +202,4 @@ displaydecoder display5(
 .F(Fs6),
 .G(Gs6)
 );
-
 endmodule

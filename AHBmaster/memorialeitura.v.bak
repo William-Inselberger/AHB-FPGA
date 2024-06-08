@@ -1,0 +1,20 @@
+module memorialeitura(
+input hrestn,
+input [9:0]displaysel,
+output [7:0] memoria
+);
+
+reg [7:0] mem [9:0];
+
+assign memo=mem[displaysel];
+
+always @(leitura,negedge hrestn)begin
+if(!hrestn) i<=0;
+
+mem[i]<=leitura;
+i<=i+1;
+
+
+end
+
+endmodule

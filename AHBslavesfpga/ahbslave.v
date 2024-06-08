@@ -33,15 +33,17 @@ module ahbslave(
 //----------------------------------------------------------------------
 // The definitions for intern registers for data storge
 //----------------------------------------------------------------------
-reg [7:0] mem [9:0];
+reg [7:0] mem [2**10-1:0];
 reg [9:0] waddr;
 reg [9:0] raddr;
+
 //----------------------------------------------------------------------
 // The definition for state machine
 //----------------------------------------------------------------------
 reg [1:0] state;
 reg [1:0] next_state;
 localparam idle = 2'b00,s1 = 2'b01,WRITE = 2'b10,READ = 2'b11;
+
 
 assign estadoslave=state;
 //----------------------------------------------------------------------
@@ -56,15 +58,20 @@ reg incr8_flag;
 reg wrap16_flag;
 reg incr16_flag;
 assign memo=mem[displaysel];
-
+integer i;
 
 //----------------------------------------------------------------------
 // The state machine
 //----------------------------------------------------------------------
+//initial begin
+//
+//for(i=0;i<=1023;i=i+1) mem[i]=0;
+//
+//end
 
 always @(posedge hclk, negedge hresetn) begin
   if(!hresetn) begin
-    state <= idle;
+		state <= idle;
   end
   else begin
     state <= next_state;
@@ -321,6 +328,7 @@ always @(posedge hclk, negedge hresetn) begin
     hrdata <= 8'h0_0;
     waddr <= 10'b00_0000_0000;
     raddr <= 10'b00_0000_0000;
+	 //for(i=0;i<=1023;i=i+1) mem[i]=0;
   end
   else begin
     case(next_state)
@@ -330,7 +338,7 @@ always @(posedge hclk, negedge hresetn) begin
         hrdata <= hrdata;
         waddr <= waddr;
         raddr <= raddr;
-
+		  
 
       end
       s1: begin

@@ -40,35 +40,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "bursttype[0]",
-					"strict" : false
-				},
-				{
-					"name" : "bursttype[1]",
-					"strict" : false
-				},
-				{
-					"name" : "htrans[0]",
-					"strict" : false
-				},
-				{
 					"name" : "htrans[1]",
 					"strict" : false
 				},
 				{
-					"name" : "Am",
-					"strict" : false
-				},
-				{
-					"name" : "Dm",
-					"strict" : false
-				},
-				{
-					"name" : "Em",
-					"strict" : false
-				},
-				{
-					"name" : "Fm",
+					"name" : "hclkout",
 					"strict" : false
 				},
 				{
@@ -77,10 +53,6 @@
 				},
 				{
 					"name" : "hresetn",
-					"strict" : false
-				},
-				{
-					"name" : "hrdata_1[0]",
 					"strict" : false
 				},
 				{

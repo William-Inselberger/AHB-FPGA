@@ -11,7 +11,6 @@ output reg G
 
 
 
-
 always@(n) begin
 
 

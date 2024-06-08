@@ -80,6 +80,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "Bs1",
+					"strict" : false
+				},
+				{
+					"name" : "Cs1",
+					"strict" : false
+				},
+				{
 					"name" : "Ds1",
 					"strict" : false
 				},
@@ -92,23 +100,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "As2",
-					"strict" : false
-				},
-				{
-					"name" : "Ds2",
-					"strict" : false
-				},
-				{
-					"name" : "Es2",
-					"strict" : false
-				},
-				{
-					"name" : "Fs2",
+					"name" : "Gs1",
 					"strict" : false
 				},
 				{
 					"name" : "As3",
+					"strict" : false
+				},
+				{
+					"name" : "Bs3",
+					"strict" : false
+				},
+				{
+					"name" : "Cs3",
 					"strict" : false
 				},
 				{
@@ -124,19 +128,63 @@
 					"strict" : false
 				},
 				{
-					"name" : "As4",
+					"name" : "Gs3",
 					"strict" : false
 				},
 				{
-					"name" : "Ds4",
+					"name" : "As5",
 					"strict" : false
 				},
 				{
-					"name" : "Es4",
+					"name" : "Bs5",
 					"strict" : false
 				},
 				{
-					"name" : "Fs4",
+					"name" : "Cs5",
+					"strict" : false
+				},
+				{
+					"name" : "Ds5",
+					"strict" : false
+				},
+				{
+					"name" : "Es5",
+					"strict" : false
+				},
+				{
+					"name" : "Fs5",
+					"strict" : false
+				},
+				{
+					"name" : "Gs5",
+					"strict" : false
+				},
+				{
+					"name" : "As6",
+					"strict" : false
+				},
+				{
+					"name" : "Bs6",
+					"strict" : false
+				},
+				{
+					"name" : "Cs6",
+					"strict" : false
+				},
+				{
+					"name" : "Ds6",
+					"strict" : false
+				},
+				{
+					"name" : "Es6",
+					"strict" : false
+				},
+				{
+					"name" : "Fs6",
+					"strict" : false
+				},
+				{
+					"name" : "Gs6",
 					"strict" : false
 				},
 				{
@@ -261,6 +309,26 @@
 				},
 				{
 					"name" : "s3",
+					"strict" : false
+				},
+				{
+					"name" : "s4",
+					"strict" : false
+				},
+				{
+					"name" : "s5",
+					"strict" : false
+				},
+				{
+					"name" : "s6",
+					"strict" : false
+				},
+				{
+					"name" : "s7",
+					"strict" : false
+				},
+				{
+					"name" : "s8",
 					"strict" : false
 				},
 				{

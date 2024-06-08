@@ -11,7 +11,7 @@ initial begin
 	// WRITE_BURST(XXX)_SEL_ADDR(XX_XXXX_XXXX)_DATA(XXXX_XXXX)
 	// write : 2 clk
 	//read: 5 clk
-		memoria[0]=23'b1_011_0_00_0000_0001_0000_0010; 
+		memoria[0]=23'b1_000_0_00_0000_0001_0000_0010; 
 	 	memoria[1]=23'b0_000_0_00_0000_0001_0000_0000;  
 		memoria[2]=23'b0_000_0_00_0000_0001_0000_0000; 	//escreve 2 no addr 2 do slave 0
 		memoria[3]=23'b0_000_0_00_0000_0001_0000_0000;	

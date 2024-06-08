@@ -1,0 +1,18 @@
+Fitter Status : Successful - Thu Jun 06 14:21:24 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ahbslavesfpga
+Top-level Entity Name : ahbslavesfpga
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 528 / 49,760 ( 1 % )
+    Total combinational functions : 485 / 49,760 ( < 1 % )
+    Dedicated logic registers : 150 / 49,760 ( < 1 % )
+Total registers : 150
+Total pins : 100 / 360 ( 28 % )
+Total virtual pins : 0
+Total memory bits : 24,576 / 1,677,312 ( 1 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

@@ -1,0 +1,125 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'hclk'
+Slack : -7.191
+TNS   : -606.489
+
+Type  : Slow 1200mV 85C Model Setup 'ahbslave:slave2|state.READ'
+Slack : -2.390
+TNS   : -16.770
+
+Type  : Slow 1200mV 85C Model Setup 'ahbslave:slave1|state.READ'
+Slack : -2.079
+TNS   : -13.432
+
+Type  : Slow 1200mV 85C Model Hold 'hclk'
+Slack : -3.276
+TNS   : -3.276
+
+Type  : Slow 1200mV 85C Model Hold 'ahbslave:slave1|state.READ'
+Slack : 1.049
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ahbslave:slave2|state.READ'
+Slack : 1.496
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hclk'
+Slack : -3.000
+TNS   : -236.134
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'confirm'
+Slack : -3.000
+TNS   : -19.157
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ahbslave:slave2|state.READ'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ahbslave:slave1|state.READ'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'hclk'
+Slack : -6.693
+TNS   : -551.286
+
+Type  : Slow 1200mV 0C Model Setup 'ahbslave:slave2|state.READ'
+Slack : -2.268
+TNS   : -16.004
+
+Type  : Slow 1200mV 0C Model Setup 'ahbslave:slave1|state.READ'
+Slack : -1.998
+TNS   : -12.973
+
+Type  : Slow 1200mV 0C Model Hold 'hclk'
+Slack : -3.114
+TNS   : -3.114
+
+Type  : Slow 1200mV 0C Model Hold 'ahbslave:slave1|state.READ'
+Slack : 1.050
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ahbslave:slave2|state.READ'
+Slack : 1.416
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hclk'
+Slack : -3.000
+TNS   : -234.888
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'confirm'
+Slack : -3.000
+TNS   : -18.890
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ahbslave:slave2|state.READ'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ahbslave:slave1|state.READ'
+Slack : 0.473
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'hclk'
+Slack : -2.767
+TNS   : -208.116
+
+Type  : Fast 1200mV 0C Model Setup 'ahbslave:slave2|state.READ'
+Slack : -0.228
+TNS   : -0.814
+
+Type  : Fast 1200mV 0C Model Setup 'ahbslave:slave1|state.READ'
+Slack : -0.141
+TNS   : -0.141
+
+Type  : Fast 1200mV 0C Model Hold 'hclk'
+Slack : -1.331
+TNS   : -1.331
+
+Type  : Fast 1200mV 0C Model Hold 'ahbslave:slave1|state.READ'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ahbslave:slave2|state.READ'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hclk'
+Slack : -3.000
+TNS   : -208.486
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'confirm'
+Slack : -3.000
+TNS   : -15.710
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ahbslave:slave1|state.READ'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ahbslave:slave2|state.READ'
+Slack : 0.339
+TNS   : 0.000
+
+------------------------------------------------------------

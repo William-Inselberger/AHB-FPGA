@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'hclk'
+Slack : -2.943
+TNS   : -2.943
+
+Type  : Slow 1200mV 85C Model Setup 'hreadyout_1'
+Slack : -1.309
+TNS   : -8.533
+
+Type  : Slow 1200mV 85C Model Hold 'hclk'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'hreadyout_1'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hreadyout_1'
+Slack : -3.000
+TNS   : -17.030
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hclk'
+Slack : -3.000
+TNS   : -7.209
+
+Type  : Slow 1200mV 0C Model Setup 'hclk'
+Slack : -2.726
+TNS   : -2.726
+
+Type  : Slow 1200mV 0C Model Setup 'hreadyout_1'
+Slack : -1.088
+TNS   : -6.910
+
+Type  : Slow 1200mV 0C Model Hold 'hclk'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'hreadyout_1'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hreadyout_1'
+Slack : -3.000
+TNS   : -17.030
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hclk'
+Slack : -3.000
+TNS   : -7.209
+
+Type  : Fast 1200mV 0C Model Setup 'hclk'
+Slack : -0.615
+TNS   : -0.615
+
+Type  : Fast 1200mV 0C Model Setup 'hreadyout_1'
+Slack : 0.080
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'hclk'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'hreadyout_1'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hreadyout_1'
+Slack : -3.000
+TNS   : -16.788
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hclk'
+Slack : -3.000
+TNS   : -6.519
+
+------------------------------------------------------------
