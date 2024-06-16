@@ -16,5 +16,5 @@ i<=i+1;
 
 
 end
-always @(negedge hrestn) if(!hrestn) i<=0;
+//always @(negedge hrestn) if(!hrestn) i<=0;
 endmodule

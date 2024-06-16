@@ -134,7 +134,7 @@ set_location_assignment PIN_Y5 -to hresp_1
 set_location_assignment PIN_Y4 -to hresp_2
 set_location_assignment PIN_AB3 -to hreadyout_1
 set_location_assignment PIN_Y3 -to hreadyout_2
-set_location_assignment PIN_C10 -to hresetn
+set_location_assignment PIN_AB2 -to hresetn
 set_location_assignment PIN_C11 -to s0
 set_location_assignment PIN_D12 -to s1
 set_location_assignment PIN_C12 -to s2

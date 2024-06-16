@@ -3,27 +3,27 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'hclk'
-Slack : -7.191
-TNS   : -606.489
-
-Type  : Slow 1200mV 85C Model Setup 'ahbslave:slave2|state.READ'
-Slack : -2.390
-TNS   : -16.770
+Slack : -9.101
+TNS   : -661.855
 
 Type  : Slow 1200mV 85C Model Setup 'ahbslave:slave1|state.READ'
-Slack : -2.079
-TNS   : -13.432
+Slack : -2.050
+TNS   : -15.253
+
+Type  : Slow 1200mV 85C Model Setup 'ahbslave:slave2|state.READ'
+Slack : -1.953
+TNS   : -13.811
 
 Type  : Slow 1200mV 85C Model Hold 'hclk'
-Slack : -3.276
-TNS   : -3.276
-
-Type  : Slow 1200mV 85C Model Hold 'ahbslave:slave1|state.READ'
-Slack : 1.049
-TNS   : 0.000
+Slack : -3.293
+TNS   : -3.293
 
 Type  : Slow 1200mV 85C Model Hold 'ahbslave:slave2|state.READ'
-Slack : 1.496
+Slack : 1.301
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ahbslave:slave1|state.READ'
+Slack : 1.467
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hclk'
@@ -34,36 +34,36 @@ Type  : Slow 1200mV 85C Model Minimum Pulse Width 'confirm'
 Slack : -3.000
 TNS   : -19.157
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ahbslave:slave2|state.READ'
-Slack : 0.396
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ahbslave:slave1|state.READ'
+Slack : 0.398
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ahbslave:slave1|state.READ'
-Slack : 0.411
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ahbslave:slave2|state.READ'
+Slack : 0.426
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'hclk'
-Slack : -6.693
-TNS   : -551.286
-
-Type  : Slow 1200mV 0C Model Setup 'ahbslave:slave2|state.READ'
-Slack : -2.268
-TNS   : -16.004
+Slack : -8.391
+TNS   : -601.002
 
 Type  : Slow 1200mV 0C Model Setup 'ahbslave:slave1|state.READ'
-Slack : -1.998
-TNS   : -12.973
+Slack : -1.938
+TNS   : -14.499
+
+Type  : Slow 1200mV 0C Model Setup 'ahbslave:slave2|state.READ'
+Slack : -1.866
+TNS   : -13.294
 
 Type  : Slow 1200mV 0C Model Hold 'hclk'
-Slack : -3.114
-TNS   : -3.114
-
-Type  : Slow 1200mV 0C Model Hold 'ahbslave:slave1|state.READ'
-Slack : 1.050
-TNS   : 0.000
+Slack : -3.129
+TNS   : -3.129
 
 Type  : Slow 1200mV 0C Model Hold 'ahbslave:slave2|state.READ'
-Slack : 1.416
+Slack : 1.248
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ahbslave:slave1|state.READ'
+Slack : 1.436
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hclk'
@@ -75,51 +75,51 @@ Slack : -3.000
 TNS   : -18.890
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ahbslave:slave2|state.READ'
-Slack : 0.435
+Slack : 0.406
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ahbslave:slave1|state.READ'
-Slack : 0.473
+Slack : 0.434
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'hclk'
-Slack : -2.767
-TNS   : -208.116
-
-Type  : Fast 1200mV 0C Model Setup 'ahbslave:slave2|state.READ'
-Slack : -0.228
-TNS   : -0.814
+Slack : -3.525
+TNS   : -233.211
 
 Type  : Fast 1200mV 0C Model Setup 'ahbslave:slave1|state.READ'
-Slack : -0.141
-TNS   : -0.141
+Slack : -0.097
+TNS   : -0.252
+
+Type  : Fast 1200mV 0C Model Setup 'ahbslave:slave2|state.READ'
+Slack : -0.036
+TNS   : -0.036
 
 Type  : Fast 1200mV 0C Model Hold 'hclk'
-Slack : -1.331
-TNS   : -1.331
-
-Type  : Fast 1200mV 0C Model Hold 'ahbslave:slave1|state.READ'
-Slack : 0.125
-TNS   : 0.000
+Slack : -1.339
+TNS   : -1.339
 
 Type  : Fast 1200mV 0C Model Hold 'ahbslave:slave2|state.READ'
-Slack : 0.322
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ahbslave:slave1|state.READ'
+Slack : 0.273
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hclk'
 Slack : -3.000
-TNS   : -208.486
+TNS   : -206.740
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'confirm'
 Slack : -3.000
-TNS   : -15.710
+TNS   : -15.686
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ahbslave:slave1|state.READ'
-Slack : 0.325
+Slack : 0.336
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ahbslave:slave2|state.READ'
-Slack : 0.339
+Slack : 0.350
 TNS   : 0.000
 
 ------------------------------------------------------------

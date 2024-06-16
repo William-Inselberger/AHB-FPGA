@@ -3,15 +3,15 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'hclk'
-Slack : -2.943
-TNS   : -2.943
+Slack : -3.684
+TNS   : -7.295
 
 Type  : Slow 1200mV 85C Model Setup 'hreadyout_1'
 Slack : -1.309
-TNS   : -8.533
+TNS   : -8.614
 
 Type  : Slow 1200mV 85C Model Hold 'hclk'
-Slack : 0.356
+Slack : 0.323
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'hreadyout_1'
@@ -24,18 +24,26 @@ TNS   : -17.030
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hclk'
 Slack : -3.000
-TNS   : -7.209
+TNS   : -8.612
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'confirm0'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'confirm1'
+Slack : -3.000
+TNS   : -4.403
 
 Type  : Slow 1200mV 0C Model Setup 'hclk'
-Slack : -2.726
-TNS   : -2.726
+Slack : -3.422
+TNS   : -6.661
 
 Type  : Slow 1200mV 0C Model Setup 'hreadyout_1'
-Slack : -1.088
-TNS   : -6.910
+Slack : -1.086
+TNS   : -6.969
 
 Type  : Slow 1200mV 0C Model Hold 'hclk'
-Slack : 0.322
+Slack : 0.289
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'hreadyout_1'
@@ -48,18 +56,26 @@ TNS   : -17.030
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hclk'
 Slack : -3.000
-TNS   : -7.209
+TNS   : -8.612
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'confirm0'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'confirm1'
+Slack : -3.000
+TNS   : -4.403
 
 Type  : Fast 1200mV 0C Model Setup 'hclk'
-Slack : -0.615
-TNS   : -0.615
+Slack : -0.892
+TNS   : -1.587
 
 Type  : Fast 1200mV 0C Model Setup 'hreadyout_1'
 Slack : 0.080
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'hclk'
-Slack : 0.152
+Slack : 0.141
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'hreadyout_1'
@@ -68,10 +84,18 @@ TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hreadyout_1'
 Slack : -3.000
-TNS   : -16.788
+TNS   : -16.810
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hclk'
 Slack : -3.000
-TNS   : -6.519
+TNS   : -7.712
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'confirm1'
+Slack : -3.000
+TNS   : -4.221
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'confirm0'
+Slack : -3.000
+TNS   : -4.213
 
 ------------------------------------------------------------
