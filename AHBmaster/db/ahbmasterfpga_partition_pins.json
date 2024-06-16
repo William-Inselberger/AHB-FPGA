@@ -52,39 +52,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "As1",
-					"strict" : false
-				},
-				{
-					"name" : "Ds1",
-					"strict" : false
-				},
-				{
-					"name" : "Es1",
-					"strict" : false
-				},
-				{
-					"name" : "Fs1",
-					"strict" : false
-				},
-				{
-					"name" : "As3",
-					"strict" : false
-				},
-				{
-					"name" : "Ds3",
-					"strict" : false
-				},
-				{
-					"name" : "Es3",
-					"strict" : false
-				},
-				{
-					"name" : "Fs3",
-					"strict" : false
-				},
-				{
 					"name" : "hclkout",
+					"strict" : false
+				},
+				{
+					"name" : "hresetnout",
 					"strict" : false
 				},
 				{
@@ -96,63 +68,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "s4",
-					"strict" : false
-				},
-				{
-					"name" : "s5",
-					"strict" : false
-				},
-				{
-					"name" : "s6",
-					"strict" : false
-				},
-				{
-					"name" : "s7",
-					"strict" : false
-				},
-				{
-					"name" : "s3",
-					"strict" : false
-				},
-				{
-					"name" : "s2",
-					"strict" : false
-				},
-				{
-					"name" : "s1",
-					"strict" : false
-				},
-				{
-					"name" : "s0",
-					"strict" : false
-				},
-				{
-					"name" : "s8",
-					"strict" : false
-				},
-				{
-					"name" : "confirm0",
-					"strict" : false
-				},
-				{
-					"name" : "confirm1",
-					"strict" : false
-				},
-				{
 					"name" : "hreadyout_1",
 					"strict" : false
 				},
 				{
 					"name" : "hreadyout_2",
-					"strict" : false
-				},
-				{
-					"name" : "hrdata_2[0]",
-					"strict" : false
-				},
-				{
-					"name" : "hrdata_1[0]",
 					"strict" : false
 				}
 			]

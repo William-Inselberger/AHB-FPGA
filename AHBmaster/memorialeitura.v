@@ -7,7 +7,7 @@ output [7:0] memoria
 
 reg [7:0] mem [511:0];
 integer i;
-assign memoria=mem[displaysel];
+assign memo=mem[displaysel];
 
 always @(valorleitura)begin
 
@@ -16,5 +16,5 @@ i<=i+1;
 
 
 end
-//always @(negedge hrestn) if(!hrestn) i<=0;
+always @(negedge hrestn) if(!hrestn) i<=0;
 endmodule

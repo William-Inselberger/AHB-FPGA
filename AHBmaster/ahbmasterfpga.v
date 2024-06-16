@@ -73,14 +73,8 @@ module ahbmasterfpga(
 );
 
 
-	
-
-
-
-
-
 assign hclkout =hclk;
-assign hresetnou=hresetn;
+assign hresetnout=hresetn;
 // multiplexor
 wire [7:0] hrdata;
 wire hreadyout;
@@ -96,7 +90,7 @@ wire hwr;
 
 assign addr=address;
 wire [9:0]seldisplay;
-wire [7:0]leitura;
+
 assign seldisplay={s8,s7,s6,s5,s4,s3,s2,s1,s0};
 
 wire [10:0]address;
@@ -178,7 +172,7 @@ ffd valor1(
 .q(memos1)
 
 );
-wire [7:0]mem0,mem1,memos0,memos1,memos00,memos01,memo10,memos11;
+wire [7:0]mem0,mem1,memos0,memos1;
 assign memos00={memos0[3],memos0[2],memos0[1],memos0[0]};
 assign memos01={memos0[7],memos0[6],memos0[5],memos0[4]};
 assign memos10={memos1[3],memos1[2],memos1[1],memos1[0]};

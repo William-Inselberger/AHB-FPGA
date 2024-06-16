@@ -1,5 +1,5 @@
 EDA Netlist Writer report for ahbmasterfpga
-Fri Jun 14 16:52:02 2024
+Sun Jun 16 13:16:33 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Jun 14 16:52:02 2024 ;
+; EDA Netlist Writer Status ; Successful - Sun Jun 16 13:16:33 2024 ;
 ; Revision Name             ; ahbmasterfpga                         ;
 ; Top-level Entity Name     ; ahbmasterfpga                         ;
 ; Family                    ; MAX 10                                ;
@@ -50,8 +50,7 @@ refer to the applicable agreement for further details.
 ; Option                                                                                            ; Setting                   ;
 +---------------------------------------------------------------------------------------------------+---------------------------+
 ; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
-; Generate functional simulation netlist                                                            ; Off                       ;
-; Time scale                                                                                        ; 1 ps                      ;
+; Generate functional simulation netlist                                                            ; On                        ;
 ; Truncate long hierarchy paths                                                                     ; Off                       ;
 ; Map illegal HDL characters                                                                        ; Off                       ;
 ; Flatten buses into individual nodes                                                               ; Off                       ;
@@ -81,14 +80,13 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Jun 14 16:52:01 2024
+    Info: Processing started: Sun Jun 16 13:16:32 2024
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off ahbmasterfpga -c ahbmasterfpga
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Warning (10905): Generated the EDA functional simulation netlist because it is the only supported netlist type for this device.
 Info (204019): Generated file ahbmasterfpga.vo in folder "C:/Users/wi199/OneDrive/Documentos/AHB FPGA/AHBmaster/simulation/modelsim/" for EDA simulation tool
-Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4659 megabytes
-    Info: Processing ended: Fri Jun 14 16:52:02 2024
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4638 megabytes
+    Info: Processing ended: Sun Jun 16 13:16:33 2024
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 

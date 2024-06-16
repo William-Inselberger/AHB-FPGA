@@ -1,5 +1,5 @@
 Fitter report for ahbslavesfpga
-Sun Jun 16 13:04:32 2024
+Sun Jun 16 13:07:48 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -68,7 +68,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sun Jun 16 13:04:32 2024       ;
+; Fitter Status                      ; Successful - Sun Jun 16 13:07:48 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; ahbslavesfpga                               ;
 ; Top-level Entity Name              ; ahbslavesfpga                               ;
@@ -154,19 +154,19 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 10          ;
 ;                            ;             ;
-; Average used               ; 1.23        ;
+; Average used               ; 1.25        ;
 ; Maximum used               ; 10          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.6%      ;
-;     Processor 3            ;   2.6%      ;
-;     Processor 4            ;   2.6%      ;
-;     Processor 5            ;   2.6%      ;
-;     Processor 6            ;   2.6%      ;
-;     Processor 7            ;   2.6%      ;
-;     Processor 8            ;   2.6%      ;
-;     Processors 9-10        ;   2.6%      ;
+;     Processor 2            ;   2.8%      ;
+;     Processor 3            ;   2.8%      ;
+;     Processor 4            ;   2.8%      ;
+;     Processor 5            ;   2.8%      ;
+;     Processor 6            ;   2.8%      ;
+;     Processor 7            ;   2.8%      ;
+;     Processor 8            ;   2.8%      ;
+;     Processors 9-10        ;   2.7%      ;
 +----------------------------+-------------+
 
 
@@ -2319,12 +2319,12 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.40 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.38 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (169177): 38 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing MAX 10 Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
     Info (169178): Pin htrans[1] uses I/O standard 3.3-V LVTTL at AA5 File: C:/Users/wi199/OneDrive/Documentos/AHB FPGA/AHBslavesfpga/ahbslavesfpga.v Line: 9
     Info (169178): Pin htrans[0] uses I/O standard 3.3-V LVTTL at AA6 File: C:/Users/wi199/OneDrive/Documentos/AHB FPGA/AHBslavesfpga/ahbslavesfpga.v Line: 9
@@ -2367,7 +2367,7 @@ Warning (169177): 38 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 
 Info (144001): Generated suppressed messages file C:/Users/wi199/OneDrive/Documentos/AHB FPGA/AHBslavesfpga/output_files/ahbslavesfpga.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 7 warnings
     Info: Peak virtual memory: 6067 megabytes
-    Info: Processing ended: Sun Jun 16 13:04:32 2024
+    Info: Processing ended: Sun Jun 16 13:07:49 2024
     Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:06
 
